@@ -111,7 +111,11 @@ test('Delete a resource', async () => {
     expect(response.status()).toBe(200);
 });
 ```
-
+## Running the tests
+Navigate to the project root directory and run the command in terminal:
+```sh
+npx playwright test <path/to/test>
+```
 ## Conclusion
 
 By the end of this workshop, you should have a basic understanding of:
